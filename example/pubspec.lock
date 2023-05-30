@@ -74,10 +74,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_mdi_icons
-      sha256: "03658c17a3cc49ea28a1ad4f40d826d9661b13272eac51983aa0fa9b594c8112"
+      sha256: "55d42f38a0ae123254b284639a32ccb89f49b5223382ef351173c896d31b1c6a"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.9"
+    version: "0.1.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -92,7 +92,7 @@ packages:
     source: hosted
     version: "0.6.7"
   lints:
-    dependency: transitive
+    dependency: "direct dev"
     description:
       name: lints
       sha256: "6b0206b0bf4f04961fc5438198ccb3a885685cd67d4d4a32cc20ad7f8adbe015"

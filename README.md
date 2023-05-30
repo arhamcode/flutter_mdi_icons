@@ -12,7 +12,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  flutter_mdi_icons: ^0.1.0
+  flutter_mdi_icons: ^0.1.1
 ```
 
 #### [Optional] VSCode Plugin

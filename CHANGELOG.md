@@ -1,3 +1,7 @@
+## 0.1.1
+
+* Passing analytic
+
 ## 0.1.0
 
 * Passing analytic
