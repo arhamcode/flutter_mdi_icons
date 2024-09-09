@@ -7,7 +7,7 @@ import './icon_data.dart';
 
 /// Abstract class Mdi
 ///
-/// provide IconData for Material Design Icons 7.2.96
+/// provide IconData for Material Design Icons 7.4.47
 ///
 /// Example:
 /// ```dart
@@ -21924,4 +21924,457 @@ abstract class Mdi {
 
   /// Icon for mdi-thermostat-cog
   static const IconData thermostatCog = MdiconData(0XF1C80);
+
+  /// Icon for mdi-car-door-lock-open
+  static const IconData carDoorLockOpen = MdiconData(0XF1C81);
+
+  /// Icon for mdi-charity-search
+  static const IconData charitySearch = MdiconData(0XF1C82);
+
+  /// Icon for mdi-code-block-braces
+  static const IconData codeBlockBraces = MdiconData(0XF1C83);
+
+  /// Icon for mdi-code-block-brackets
+  static const IconData codeBlockBrackets = MdiconData(0XF1C84);
+
+  /// Icon for mdi-code-block-parentheses
+  static const IconData codeBlockParentheses = MdiconData(0XF1C85);
+
+  /// Icon for mdi-code-block-tags
+  static const IconData codeBlockTags = MdiconData(0XF1C86);
+
+  /// Icon for mdi-earth-arrow-down
+  static const IconData earthArrowDown = MdiconData(0XF1C87);
+
+  /// Icon for mdi-earth-arrow-left
+  static const IconData earthArrowLeft = MdiconData(0XF1C88);
+
+  /// Icon for mdi-earth-arrow-up
+  static const IconData earthArrowUp = MdiconData(0XF1C89);
+
+  /// Icon for mdi-generator-mobile
+  static const IconData generatorMobile = MdiconData(0XF1C8A);
+
+  /// Icon for mdi-generator-portable
+  static const IconData generatorPortable = MdiconData(0XF1C8B);
+
+  /// Icon for mdi-generator-stationary
+  static const IconData generatorStationary = MdiconData(0XF1C8C);
+
+  /// Icon for mdi-heart-search
+  static const IconData heartSearch = MdiconData(0XF1C8D);
+
+  /// Icon for mdi-human-female-female-child
+  static const IconData humanFemaleFemaleChild = MdiconData(0XF1C8E);
+
+  /// Icon for mdi-human-male-male-child
+  static const IconData humanMaleMaleChild = MdiconData(0XF1C8F);
+
+  /// Icon for mdi-menu-close
+  static const IconData menuClose = MdiconData(0XF1C90);
+
+  /// Icon for mdi-arrow-oscillating
+  static const IconData arrowOscillating = MdiconData(0XF1C91);
+
+  /// Icon for mdi-arrow-oscillating-off
+  static const IconData arrowOscillatingOff = MdiconData(0XF1C92);
+
+  /// Icon for mdi-door-closed-cancel
+  static const IconData doorClosedCancel = MdiconData(0XF1C93);
+
+  /// Icon for mdi-hours-12
+  static const IconData hours12 = MdiconData(0XF1C94);
+
+  /// Icon for mdi-hub
+  static const IconData hub = MdiconData(0XF1C95);
+
+  /// Icon for mdi-hub-outline
+  static const IconData hubOutline = MdiconData(0XF1C96);
+
+  /// Icon for mdi-router-network-wireless
+  static const IconData routerNetworkWireless = MdiconData(0XF1C97);
+
+  /// Icon for mdi-server-minus-outline
+  static const IconData serverMinusOutline = MdiconData(0XF1C98);
+
+  /// Icon for mdi-server-network-outline
+  static const IconData serverNetworkOutline = MdiconData(0XF1C99);
+
+  /// Icon for mdi-server-outline
+  static const IconData serverOutline = MdiconData(0XF1C9A);
+
+  /// Icon for mdi-server-plus-outline
+  static const IconData serverPlusOutline = MdiconData(0XF1C9B);
+
+  /// Icon for mdi-tag-edit
+  static const IconData tagEdit = MdiconData(0XF1C9C);
+
+  /// Icon for mdi-tag-edit-outline
+  static const IconData tagEditOutline = MdiconData(0XF1C9D);
+
+  /// Icon for mdi-truck-off-road
+  static const IconData truckOffRoad = MdiconData(0XF1C9E);
+
+  /// Icon for mdi-truck-off-road-off
+  static const IconData truckOffRoadOff = MdiconData(0XF1C9F);
+
+  /// Icon for mdi-video-standard-definition
+  static const IconData videoStandardDefinition = MdiconData(0XF1CA0);
+
+  /// Icon for mdi-cloud-key
+  static const IconData cloudKey = MdiconData(0XF1CA1);
+
+  /// Icon for mdi-cloud-key-outline
+  static const IconData cloudKeyOutline = MdiconData(0XF1CA2);
+
+  /// Icon for mdi-eye-closed
+  static const IconData eyeClosed = MdiconData(0XF1CA3);
+
+  /// Icon for mdi-bag-personal-plus
+  static const IconData bagPersonalPlus = MdiconData(0XF1CA4);
+
+  /// Icon for mdi-bag-personal-plus-outline
+  static const IconData bagPersonalPlusOutline = MdiconData(0XF1CA5);
+
+  /// Icon for mdi-memory-arrow-down
+  static const IconData memoryArrowDown = MdiconData(0XF1CA6);
+
+  /// Icon for mdi-account-file
+  static const IconData accountFile = MdiconData(0XF1CA7);
+
+  /// Icon for mdi-account-file-outline
+  static const IconData accountFileOutline = MdiconData(0XF1CA8);
+
+  /// Icon for mdi-account-file-text
+  static const IconData accountFileText = MdiconData(0XF1CA9);
+
+  /// Icon for mdi-account-file-text-outline
+  static const IconData accountFileTextOutline = MdiconData(0XF1CAA);
+
+  /// Icon for mdi-cash-edit
+  static const IconData cashEdit = MdiconData(0XF1CAB);
+
+  /// Icon for mdi-link-circle
+  static const IconData linkCircle = MdiconData(0XF1CAC);
+
+  /// Icon for mdi-link-circle-outline
+  static const IconData linkCircleOutline = MdiconData(0XF1CAD);
+
+  /// Icon for mdi-link-edit
+  static const IconData linkEdit = MdiconData(0XF1CAE);
+
+  /// Icon for mdi-queue-first-in-last-out
+  static const IconData queueFirstInLastOut = MdiconData(0XF1CAF);
+
+  /// Icon for mdi-wave-arrow-down
+  static const IconData waveArrowDown = MdiconData(0XF1CB0);
+
+  /// Icon for mdi-wave-arrow-up
+  static const IconData waveArrowUp = MdiconData(0XF1CB1);
+
+  /// Icon for mdi-emoticon-minus
+  static const IconData emoticonMinus = MdiconData(0XF1CB2);
+
+  /// Icon for mdi-emoticon-minus-outline
+  static const IconData emoticonMinusOutline = MdiconData(0XF1CB3);
+
+  /// Icon for mdi-emoticon-plus
+  static const IconData emoticonPlus = MdiconData(0XF1CB4);
+
+  /// Icon for mdi-emoticon-plus-outline
+  static const IconData emoticonPlusOutline = MdiconData(0XF1CB5);
+
+  /// Icon for mdi-emoticon-remove
+  static const IconData emoticonRemove = MdiconData(0XF1CB6);
+
+  /// Icon for mdi-emoticon-remove-outline
+  static const IconData emoticonRemoveOutline = MdiconData(0XF1CB7);
+
+  /// Icon for mdi-passport-alert
+  static const IconData passportAlert = MdiconData(0XF1CB8);
+
+  /// Icon for mdi-passport-cancel
+  static const IconData passportCancel = MdiconData(0XF1CB9);
+
+  /// Icon for mdi-passport-check
+  static const IconData passportCheck = MdiconData(0XF1CBA);
+
+  /// Icon for mdi-passport-minus
+  static const IconData passportMinus = MdiconData(0XF1CBB);
+
+  /// Icon for mdi-passport-plus
+  static const IconData passportPlus = MdiconData(0XF1CBC);
+
+  /// Icon for mdi-passport-remove
+  static const IconData passportRemove = MdiconData(0XF1CBD);
+
+  /// Icon for mdi-pocket
+  static const IconData pocket = MdiconData(0XF1CBE);
+
+  /// Icon for mdi-usb-c-port
+  static const IconData usbCPort = MdiconData(0XF1CBF);
+
+  /// Icon for mdi-wave-undercurrent
+  static const IconData waveUndercurrent = MdiconData(0XF1CC0);
+
+  /// Icon for mdi-bus-sign
+  static const IconData busSign = MdiconData(0XF1CC1);
+
+  /// Icon for mdi-bus-wrench
+  static const IconData busWrench = MdiconData(0XF1CC2);
+
+  /// Icon for mdi-fire-station
+  static const IconData fireStation = MdiconData(0XF1CC3);
+
+  /// Icon for mdi-gas-station-in-use
+  static const IconData gasStationInUse = MdiconData(0XF1CC4);
+
+  /// Icon for mdi-gas-station-in-use-outline
+  static const IconData gasStationInUseOutline = MdiconData(0XF1CC5);
+
+  /// Icon for mdi-island-variant
+  static const IconData islandVariant = MdiconData(0XF1CC6);
+
+  /// Icon for mdi-train-bus
+  static const IconData trainBus = MdiconData(0XF1CC7);
+
+  /// Icon for mdi-account-box-edit-outline
+  static const IconData accountBoxEditOutline = MdiconData(0XF1CC8);
+
+  /// Icon for mdi-account-box-minus-outline
+  static const IconData accountBoxMinusOutline = MdiconData(0XF1CC9);
+
+  /// Icon for mdi-account-box-plus-outline
+  static const IconData accountBoxPlusOutline = MdiconData(0XF1CCA);
+
+  /// Icon for mdi-book-open-blank-variant-outline
+  static const IconData bookOpenBlankVariantOutline = MdiconData(0XF1CCB);
+
+  /// Icon for mdi-book-open-variant-outline
+  static const IconData bookOpenVariantOutline = MdiconData(0XF1CCC);
+
+  /// Icon for mdi-chart-box-multiple
+  static const IconData chartBoxMultiple = MdiconData(0XF1CCD);
+
+  /// Icon for mdi-chart-box-multiple-outline
+  static const IconData chartBoxMultipleOutline = MdiconData(0XF1CCE);
+
+  /// Icon for mdi-diaper-outline
+  static const IconData diaperOutline = MdiconData(0XF1CCF);
+
+  /// Icon for mdi-download-multiple-outline
+  static const IconData downloadMultipleOutline = MdiconData(0XF1CD0);
+
+  /// Icon for mdi-ethernet-off
+  static const IconData ethernetOff = MdiconData(0XF1CD1);
+
+  /// Icon for mdi-invoice
+  static const IconData invoice = MdiconData(0XF1CD2);
+
+  /// Icon for mdi-invoice-arrow-left
+  static const IconData invoiceArrowLeft = MdiconData(0XF1CD3);
+
+  /// Icon for mdi-invoice-arrow-left-outline
+  static const IconData invoiceArrowLeftOutline = MdiconData(0XF1CD4);
+
+  /// Icon for mdi-invoice-arrow-right
+  static const IconData invoiceArrowRight = MdiconData(0XF1CD5);
+
+  /// Icon for mdi-invoice-arrow-right-outline
+  static const IconData invoiceArrowRightOutline = MdiconData(0XF1CD6);
+
+  /// Icon for mdi-invoice-check
+  static const IconData invoiceCheck = MdiconData(0XF1CD7);
+
+  /// Icon for mdi-invoice-check-outline
+  static const IconData invoiceCheckOutline = MdiconData(0XF1CD8);
+
+  /// Icon for mdi-invoice-clock
+  static const IconData invoiceClock = MdiconData(0XF1CD9);
+
+  /// Icon for mdi-invoice-clock-outline
+  static const IconData invoiceClockOutline = MdiconData(0XF1CDA);
+
+  /// Icon for mdi-invoice-edit
+  static const IconData invoiceEdit = MdiconData(0XF1CDB);
+
+  /// Icon for mdi-invoice-edit-outline
+  static const IconData invoiceEditOutline = MdiconData(0XF1CDC);
+
+  /// Icon for mdi-invoice-export-outline
+  static const IconData invoiceExportOutline = MdiconData(0XF1CDD);
+
+  /// Icon for mdi-invoice-fast
+  static const IconData invoiceFast = MdiconData(0XF1CDE);
+
+  /// Icon for mdi-invoice-fast-outline
+  static const IconData invoiceFastOutline = MdiconData(0XF1CDF);
+
+  /// Icon for mdi-invoice-import
+  static const IconData invoiceImport = MdiconData(0XF1CE0);
+
+  /// Icon for mdi-invoice-import-outline
+  static const IconData invoiceImportOutline = MdiconData(0XF1CE1);
+
+  /// Icon for mdi-invoice-list
+  static const IconData invoiceList = MdiconData(0XF1CE2);
+
+  /// Icon for mdi-invoice-list-outline
+  static const IconData invoiceListOutline = MdiconData(0XF1CE3);
+
+  /// Icon for mdi-invoice-minus
+  static const IconData invoiceMinus = MdiconData(0XF1CE4);
+
+  /// Icon for mdi-invoice-minus-outline
+  static const IconData invoiceMinusOutline = MdiconData(0XF1CE5);
+
+  /// Icon for mdi-invoice-multiple
+  static const IconData invoiceMultiple = MdiconData(0XF1CE6);
+
+  /// Icon for mdi-invoice-multiple-outline
+  static const IconData invoiceMultipleOutline = MdiconData(0XF1CE7);
+
+  /// Icon for mdi-invoice-outline
+  static const IconData invoiceOutline = MdiconData(0XF1CE8);
+
+  /// Icon for mdi-invoice-plus
+  static const IconData invoicePlus = MdiconData(0XF1CE9);
+
+  /// Icon for mdi-invoice-plus-outline
+  static const IconData invoicePlusOutline = MdiconData(0XF1CEA);
+
+  /// Icon for mdi-invoice-remove
+  static const IconData invoiceRemove = MdiconData(0XF1CEB);
+
+  /// Icon for mdi-invoice-remove-outline
+  static const IconData invoiceRemoveOutline = MdiconData(0XF1CEC);
+
+  /// Icon for mdi-invoice-send
+  static const IconData invoiceSend = MdiconData(0XF1CED);
+
+  /// Icon for mdi-invoice-send-outline
+  static const IconData invoiceSendOutline = MdiconData(0XF1CEE);
+
+  /// Icon for mdi-invoice-text
+  static const IconData invoiceText = MdiconData(0XF1CEF);
+
+  /// Icon for mdi-invoice-text-arrow-left
+  static const IconData invoiceTextArrowLeft = MdiconData(0XF1CF0);
+
+  /// Icon for mdi-invoice-text-arrow-left-outline
+  static const IconData invoiceTextArrowLeftOutline = MdiconData(0XF1CF1);
+
+  /// Icon for mdi-invoice-text-arrow-right
+  static const IconData invoiceTextArrowRight = MdiconData(0XF1CF2);
+
+  /// Icon for mdi-invoice-text-arrow-right-outline
+  static const IconData invoiceTextArrowRightOutline = MdiconData(0XF1CF3);
+
+  /// Icon for mdi-invoice-text-check
+  static const IconData invoiceTextCheck = MdiconData(0XF1CF4);
+
+  /// Icon for mdi-invoice-text-check-outline
+  static const IconData invoiceTextCheckOutline = MdiconData(0XF1CF5);
+
+  /// Icon for mdi-invoice-text-clock
+  static const IconData invoiceTextClock = MdiconData(0XF1CF6);
+
+  /// Icon for mdi-invoice-text-clock-outline
+  static const IconData invoiceTextClockOutline = MdiconData(0XF1CF7);
+
+  /// Icon for mdi-invoice-text-edit
+  static const IconData invoiceTextEdit = MdiconData(0XF1CF8);
+
+  /// Icon for mdi-invoice-text-edit-outline
+  static const IconData invoiceTextEditOutline = MdiconData(0XF1CF9);
+
+  /// Icon for mdi-invoice-text-fast
+  static const IconData invoiceTextFast = MdiconData(0XF1CFA);
+
+  /// Icon for mdi-invoice-text-fast-outline
+  static const IconData invoiceTextFastOutline = MdiconData(0XF1CFB);
+
+  /// Icon for mdi-invoice-text-minus
+  static const IconData invoiceTextMinus = MdiconData(0XF1CFC);
+
+  /// Icon for mdi-invoice-text-minus-outline
+  static const IconData invoiceTextMinusOutline = MdiconData(0XF1CFD);
+
+  /// Icon for mdi-invoice-text-multiple
+  static const IconData invoiceTextMultiple = MdiconData(0XF1CFE);
+
+  /// Icon for mdi-invoice-text-multiple-outline
+  static const IconData invoiceTextMultipleOutline = MdiconData(0XF1CFF);
+
+  /// Icon for mdi-invoice-text-outline
+  static const IconData invoiceTextOutline = MdiconData(0XF1D00);
+
+  /// Icon for mdi-invoice-text-plus
+  static const IconData invoiceTextPlus = MdiconData(0XF1D01);
+
+  /// Icon for mdi-invoice-text-plus-outline
+  static const IconData invoiceTextPlusOutline = MdiconData(0XF1D02);
+
+  /// Icon for mdi-invoice-text-remove
+  static const IconData invoiceTextRemove = MdiconData(0XF1D03);
+
+  /// Icon for mdi-invoice-text-remove-outline
+  static const IconData invoiceTextRemoveOutline = MdiconData(0XF1D04);
+
+  /// Icon for mdi-invoice-text-send
+  static const IconData invoiceTextSend = MdiconData(0XF1D05);
+
+  /// Icon for mdi-invoice-text-send-outline
+  static const IconData invoiceTextSendOutline = MdiconData(0XF1D06);
+
+  /// Icon for mdi-mouse-left-click
+  static const IconData mouseLeftClick = MdiconData(0XF1D07);
+
+  /// Icon for mdi-mouse-left-click-outline
+  static const IconData mouseLeftClickOutline = MdiconData(0XF1D08);
+
+  /// Icon for mdi-mouse-outline
+  static const IconData mouseOutline = MdiconData(0XF1D09);
+
+  /// Icon for mdi-mouse-right-click
+  static const IconData mouseRightClick = MdiconData(0XF1D0A);
+
+  /// Icon for mdi-mouse-right-click-outline
+  static const IconData mouseRightClickOutline = MdiconData(0XF1D0B);
+
+  /// Icon for mdi-mouse-scroll-wheel
+  static const IconData mouseScrollWheel = MdiconData(0XF1D0C);
+
+  /// Icon for mdi-progress-tag
+  static const IconData progressTag = MdiconData(0XF1D0D);
+
+  /// Icon for mdi-swap-horizontal-hidden
+  static const IconData swapHorizontalHidden = MdiconData(0XF1D0E);
+
+  /// Icon for mdi-underwear-outline
+  static const IconData underwearOutline = MdiconData(0XF1D0F);
+
+  /// Icon for mdi-upload-box
+  static const IconData uploadBox = MdiconData(0XF1D10);
+
+  /// Icon for mdi-upload-box-outline
+  static const IconData uploadBoxOutline = MdiconData(0XF1D11);
+
+  /// Icon for mdi-upload-circle
+  static const IconData uploadCircle = MdiconData(0XF1D12);
+
+  /// Icon for mdi-upload-circle-outline
+  static const IconData uploadCircleOutline = MdiconData(0XF1D13);
+
+  /// Icon for mdi-upload-multiple-outline
+  static const IconData uploadMultipleOutline = MdiconData(0XF1D14);
+
+  /// Icon for mdi-weather-moonset
+  static const IconData weatherMoonset = MdiconData(0XF1D15);
+
+  /// Icon for mdi-weather-moonset-down
+  static const IconData weatherMoonsetDown = MdiconData(0XF1D16);
+
+  /// Icon for mdi-weather-moonset-up
+  static const IconData weatherMoonsetUp = MdiconData(0XF1D17);
 }

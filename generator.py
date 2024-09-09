@@ -19,7 +19,7 @@ import './icon_data.dart';
 
 /// Abstract class Mdi
 ///
-/// provide IconData for Material Design Icons 7.2.96
+/// provide IconData for Material Design Icons 7.4.47
 ///
 /// Example:
 /// ```dart

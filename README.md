@@ -2,7 +2,7 @@
 
 Material Design Icons for Flutter
 
-Material Design Icons version : 7.2.96
+Material Design Icons version : 7.4.47
 
 https://pictogrammers.com/library/mdi/
 
@@ -12,7 +12,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  flutter_mdi_icons: ^0.1.1
+  flutter_mdi_icons: ^0.1.3
 ```
 
 #### [Optional] VSCode Plugin
