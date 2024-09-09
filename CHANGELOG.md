@@ -1,3 +1,7 @@
+## 0.1.3
+
+* Material Design Icons v7.4.47
+
 ## 0.1.2
 
 * Material Design Icons v7.4.47
