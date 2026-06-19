@@ -1,39 +1,44 @@
+## 0.1.4
+
+- Material Design Icons v7.4.47
+- Fix IconData extension
+
 ## 0.1.3
 
-* Material Design Icons v7.4.47
+- Material Design Icons v7.4.47
 
 ## 0.1.2
 
-* Material Design Icons v7.4.47
+- Material Design Icons v7.4.47
 
 ## 0.1.1
 
-* Passing analytic
+- Passing analytic
 
 ## 0.1.0
 
-* Passing analytic
+- Passing analytic
 
 ## 0.0.9
 
-* Passing analytic
+- Passing analytic
 
 ## 0.0.8
 
-* Add documentation
+- Add documentation
 
 ## 0.0.7
 
-* Refactor naming
+- Refactor naming
 
 ## 0.0.6
 
-* Fix bugs
+- Fix bugs
 
 ## 0.0.5
 
-* Fix bugs
+- Fix bugs
 
 ## 0.0.4
 
-* Material Design Icons 7.2.96
+- Material Design Icons 7.2.96

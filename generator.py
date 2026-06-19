@@ -15,7 +15,6 @@ f.write("""// ignore_for_file: constant_identifier_names
 library flutter_mdi_icons;
 
 import 'package:flutter/widgets.dart';
-import './icon_data.dart';
 
 /// Abstract class Mdi
 ///
@@ -73,7 +72,7 @@ for codePoint,iconName in a.items():
 
 for iconName,data in temp.items():
   f.write(f"  /// Icon for mdi-{data['oldName']}\n")
-  f.write(f"  static const IconData {iconName} = MdiconData({hex(data['codePoint']).upper()});\n")
+  f.write(f"  static const IconData {iconName} = IconData({hex(data['codePoint']).upper()}, fontFamily: 'MaterialDesignIcons', fontPackage: 'flutter_mdi_icons');\n")
 
 f.write("}\n")
 
