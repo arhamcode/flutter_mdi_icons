@@ -1,3 +1,7 @@
+## 0.1.5
+
+- Improve lib size, and generator.py
+
 ## 0.1.4
 
 - Material Design Icons v7.4.47

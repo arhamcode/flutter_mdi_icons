@@ -12,10 +12,11 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  flutter_mdi_icons: ^0.1.3
+  flutter_mdi_icons: ^0.1.5
 ```
 
 #### [Optional] VSCode Plugin
+
 Install material design icons plugin for VSCode
 
 https://marketplace.visualstudio.com/items?itemName=lukas-tr.materialdesignicons-intellisense
