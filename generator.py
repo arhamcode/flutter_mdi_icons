@@ -35,7 +35,7 @@ def extract_zip(zip_path: Path, extract_to: Path) -> None:
 def generate_dart_file(font_path: Path, output_path: Path) -> None:
     """
     Read the TTF font, extract glyph-to-codepoint mapping,
-    and generate a Dart file with IconData constants.
+    and generate a Dart file with IconData constants and a getIcon helper.
     """
     tt = ttLib.TTFont(font_path)
     cmap = tt.getBestCmap()
@@ -63,15 +63,11 @@ def generate_dart_file(font_path: Path, output_path: Path) -> None:
 
     # Build the Dart file content
     lines = [
-        "// ignore_for_file: constant_identifier_names",
-        "",
         "library flutter_mdi_icons;",
         "",
         "import 'package:flutter/widgets.dart';",
         "",
-        "/// Abstract class Mdi",
-        "///",
-        f"/// provide IconData for Material Design Icons {VERSION}",
+        f"/// Provide IconData for Material Design Icons {VERSION}",
         "///",
         "/// Example:",
         "/// ```dart",
@@ -79,11 +75,7 @@ def generate_dart_file(font_path: Path, output_path: Path) -> None:
         "/// ...",
         "/// @override",
         "/// Widget build(BuildContext context) {",
-        "///   return const Scaffold(",
-        "///     body: Center(",
-        "///       child: Icon(Mdi.accessPoint),",
-        "///     ),",
-        "///   );",
+        "///   return Icon(Mdi.accessPoint);",
         "/// }",
         "/// ...",
         "/// ```",
@@ -91,13 +83,29 @@ def generate_dart_file(font_path: Path, output_path: Path) -> None:
         "  Mdi._();",
     ]
 
+    # We'll collect constant declarations and map entries separately
+    const_lines = []
+    map_entries = []
+
     for icon_name, (codepoint, raw_name) in name_to_codepoint.items():
-        lines.append(f"  /// Icon for mdi-{raw_name}")
-        lines.append(
+        # const_lines.append(f"  /// Icon for mdi-{raw_name}")
+        const_lines.append(
             f"  static const IconData {icon_name} = IconData({hex(codepoint).upper()}, "
             "fontFamily: 'MaterialDesignIcons', fontPackage: 'flutter_mdi_icons');"
         )
+        map_entries.append(f"    '{raw_name}': {icon_name},")
 
+    # Add constants
+    lines.extend(const_lines)
+
+    # Add the internal map for getIcon
+    # lines.append("")
+    # lines.append("  static const Map<String, IconData> _iconMap = {")
+    # lines.extend(map_entries)
+    # lines.append("  };")
+    # lines.append("")
+    # lines.append("  /// Returns the IconData for the given icon name (e.g. 'access-point').")
+    # lines.append("  static IconData? getIcon(String name) => _iconMap[name];")
     lines.append("}")
 
     # Write the output file (overwrite if exists)
